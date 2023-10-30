@@ -15,7 +15,7 @@ class Matakuliah extends CI_Controller
             'required|min_length[3]',
             [
                 'required' => 'Kode Matakuliah Harus diisi',
-                'min_lenght' => 'Kode terlalu pendek'
+                'min_length' => 'Kode terlalu pendek'
             ]
         );
 
@@ -25,7 +25,7 @@ class Matakuliah extends CI_Controller
             'required|min_length[3]',
             [
                 'required' => 'Nama Matakuliah Harus diisi',
-                'min_lenght' => 'Nama terlalu pendek'
+                'min_length' => 'Nama terlalu pendek'
             ]
         );
 
